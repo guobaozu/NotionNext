@@ -163,7 +163,7 @@ const ExternalPlugin = (props) => {
           __html: GLOBAL_JS
         }} />}
 
-        {(<>
+  {(<>
           <script
   src="https://share.fastgpt.in/js/iframe.js"
   id="chatbot-iframe"
@@ -177,6 +177,18 @@ const ExternalPlugin = (props) => {
 <script>
 console.log("Chat box loaded")
 </script>
+        </>)}
+
+
+        {CHATBASE_ID && (<>
+            <script id={CHATBASE_ID} src="https://www.chatbase.co/embed.min.js" defer />
+            <script async dangerouslySetInnerHTML={{
+              __html: `
+                    window.chatbaseConfig = {
+                        chatbotId: "${CHATBASE_ID}",
+                        }
+                    `
+            }} />
         </>)}
 
         {CLARITY_ID && (<>
