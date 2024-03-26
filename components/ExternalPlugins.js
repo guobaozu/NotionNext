@@ -163,7 +163,7 @@ const ExternalPlugin = (props) => {
           __html: GLOBAL_JS
         }} />}
 
-        {CHATBASE_ID && (<>
+        {(<>
           <script
   src="https://share.fastgpt.in/js/iframe.js"
   id="chatbot-iframe"
