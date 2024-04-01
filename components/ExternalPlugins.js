@@ -167,7 +167,7 @@ const ExternalPlugin = (props) => {
   <script
   src="https://share.fastgpt.in/js/iframe.js"
   id="chatbot-iframe" 
-  data-bot-src="https://share.fastgpt.in/chat/share?shareId=iwxkrxzeg0yi9kqud7dlxwdu" 
+  data-bot-src="https://share.fastgpt.in/chat/share?shareId=nohejps234z8tcsxq7bhma6w" 
   data-default-open="false"
   data-drag="true"
   data-open-icon="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElD
