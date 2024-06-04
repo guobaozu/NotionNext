@@ -1,7 +1,7 @@
 {
   "name": "notion-next",
-  "version": "4.5.3",
-  "homepage": "https://chat918.com",
+  "version": "4.5.4",
+  "homepage": "https://www.chat918.com",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   "author": {
     "name": "zhanyun",
     "email": "zhanyun@chaton.fun",
-    "url": "https://chaton.fun"
+    "url": "https://www.chat918.com"
   },
   "scripts": {
     "dev": "next dev",
